@@ -1,7 +1,11 @@
-import React from "react";
 import Link from "next/link";
 
-export default function NotFound() {
+/**
+ * PUBLIC_INTERFACE
+ * Static 404 page used during static export (output: "export").
+ * Mirrors the themed NotFound component.
+ */
+export default function NotFoundExport() {
   return (
     <main className="container-op py-16">
       <section className="card-op p-8 text-center" role="alert" aria-live="assertive">
