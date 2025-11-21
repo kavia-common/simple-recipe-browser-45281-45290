@@ -40,7 +40,7 @@ export default function SearchBar() {
     >
       <div
         className="flex items-center gap-2 px-3 py-2 rounded-xl border w-full"
-        style={{ borderColor: "rgba(2,6,23,0.12)", background: "white", boxShadow: "var(--shadow-sm)" }}
+        style={{ borderColor: "var(--op-border)", background: "var(--op-surface)", boxShadow: "var(--shadow-sm)" }}
       >
         <span aria-hidden className="text-muted">🔎</span>
         <label htmlFor="q" className="visually-hidden">Search recipes</label>
